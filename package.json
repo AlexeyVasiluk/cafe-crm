@@ -1,0 +1,26 @@
+{
+  "name": "cafecrm",
+  "version": "1.0.0",
+  "description": "fullstack app with angular and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "keywords": [
+    "express",
+    "angular"
+  ],
+  "author": "Oleksii Vasyliuk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  }
+}
