@@ -40,9 +40,9 @@ module.exports.register = async function(req, res) {
   const candidate = await User.findOne({email: req.body.email})
 
   if (candidate) {
-    // Пользователь существует, нужно отправить ошибку
+    // Користувач існує, потрібно відправити помилку
     res.status(409).json({
-      message: 'Такой email уже занят. Попробуйте другой.'
+      message: 'Такий email вже зайнятий. Спробуйте інший.'
     })
   } else {
     // Нужно Створити пользователя
