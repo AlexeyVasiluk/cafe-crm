@@ -40,7 +40,7 @@
       </tbody>
     </table>
     <div class="order-summary">
-      <p>Общая стоимость <strong>{{order.price}} грн.</strong></p>
+      <p>Загальна вартість <strong>{{order.price}} грн.</strong></p>
     </div>
   </div>
   <div class="modal-footer">
@@ -48,11 +48,11 @@
       class="modal-action waves-effect waves-black btn-flat"
       (click)="cancel()"
       [disabled]="pending"
-    >Отмена</button>
+    >Відміна</button>
     <button
       class="modal-action btn waves-effect"
       (click)="submit()"
       [disabled]="order.list.length === 0 || pending"
-    >Подтвердить</button>
+    >Підтвердити</button>
   </div>
 </div>
