@@ -1,3 +1,4 @@
 module.exports = {
-  mongoURI: 'mongodb+srv://vasyliuk:fa3LnxxzczeAxAB@cluster0.uljzg.mongodb.net/<dbname>?retryWrites=true&w=majority'
+  mongoURI: 'mongodb+srv://vasyliuk:FSVuG1x2yzlnfoa1@cluster0.zjwes.mongodb.net/cafe_db?retryWrites=true&w=majority',
+  jwt: 'dev-jwt'
 };
