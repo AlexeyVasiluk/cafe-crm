@@ -41,7 +41,7 @@ export class OrderPositionsComponent implements OnInit {
   }
 
   addToOrder(position: Position) {
-    MaterialService.toast(`Добавлено x${position.quantity}`)
+    MaterialService.toast(`Додано x${position.quantity}`)
     this.order.add(position)
   }
 

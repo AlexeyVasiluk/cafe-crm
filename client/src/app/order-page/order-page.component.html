@@ -3,14 +3,14 @@
   <h4 *ngIf="!isRoot">
     <a routerLink="/order">Замовлення</a>
     <i class="material-icons">keyboard_arrow_right</i>
-    Додати продукцию
+    Додати продукцію
   </h4>
   <button
     class="waves-effect btn grey darken-1"
     (click)="open()"
     [disabled]="order.list.length === 0"
   >
-    Завершить
+    Закінчити
   </button>
 </div>
 
