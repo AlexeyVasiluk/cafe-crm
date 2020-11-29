@@ -83,7 +83,7 @@ export class AnalyticsPageComponent implements AfterViewInit, OnDestroy {
       // orderConfig.data.push(12);
       // **** /Order ****
 
-      const gainCtx = this.gainRef.nativeElement.getContext('2d')
+      const gainCtx = this.gainRef.nativeElement.getContext('2d');
       const orderCtx = this.orderRef.nativeElement.getContext('2d')
       gainCtx.canvas.height = '300px'
       orderCtx.canvas.height = '300px'
